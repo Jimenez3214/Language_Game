@@ -34,8 +34,8 @@ ul {
 
 .alternative {
     list-style-type: none;
-    margin-bottom: 4px;
-    padding: 10px;
+    margin-bottom: 8px;
+    padding: 20px;
     background: #E6E6E6;
 }
 
@@ -99,3 +99,22 @@ ul {
     margin-bottom: 10px;
   }
   
+
+  #button-container {
+    text-align: center;
+  }
+  
+  #nextButton {
+    padding: 15px 30px;
+    font-size: 1.2em; 
+    border: none;
+    background-color: #7e8b7e; 
+    color: white; 
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  #nextButton:hover {
+    background-color: #494b49; 
+  }

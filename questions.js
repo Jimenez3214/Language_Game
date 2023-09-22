@@ -31,8 +31,8 @@ let questions = [
       },
       {
         title: 'perro',
-        alternatives: ['dog', 'cat', 'bird', 'fish'],
-        correctAnswer: 0
+        alternatives: ['bird', 'cat', 'dog', 'fish'],
+        correctAnswer: 2
       },
       {
         title: 'elefante',
@@ -41,59 +41,55 @@ let questions = [
       },
       {
         title: 'caballo',
-        alternatives: ['horse', 'cow', 'pig', 'sheep'],
-        correctAnswer: 0
+        alternatives: ['cow', 'horse', 'pig', 'sheep'],
+        correctAnswer: 1
       },
       {
         title: 'tigre',
-        alternatives: ['tiger', 'lion', 'cheetah', 'jaguar'],
-        correctAnswer: 0
+        alternatives: ['jaguar', 'lion', 'cheetah', 'tiger'],
+        correctAnswer: 3
       },
       {
         title: 'jirafa',
-        alternatives: ['giraffe', 'elephant', 'zebra', 'rhinoceros'],
-        correctAnswer: 0
-      },
-      {
-        title: 'mono',
-        alternatives: ['monkey', 'gorilla', 'chimp', 'lemur'],
-        correctAnswer: 0
-      },
-      {
+        alternatives: ['zebra', 'rhinoceros', 'giraffe', 'elephant'],
+        correctAnswer: 2
+    },
+
+    {
         title: 'serpiente',
-        alternatives: ['snake', 'lizard', 'crocodile', 'turtle'],
-        correctAnswer: 0
-      },
-      {
+        alternatives: ['turtle', 'lizard', 'crocodile', 'snake'],
+        correctAnswer: 3
+    },
+    {
         title: 'tortuga',
-        alternatives: ['turtle', 'snail', 'crab', 'shark'],
-        correctAnswer: 0
-      },
-      {
+        alternatives: ['crab', 'snail', 'shark', 'turtle'],
+        correctAnswer: 3
+    },
+    {
         title: 'pato',
-        alternatives: ['duck', 'swan', 'goose', 'heron'],
-        correctAnswer: 0
-      },
-      {
+        alternatives: ['heron', 'duck', 'goose', 'swan'],
+        correctAnswer: 1
+    },
+    {
         title: 'abeja',
-        alternatives: ['bee', 'butterfly', 'ant', 'spider'],
-        correctAnswer: 0
-      },
-      {
+        alternatives: ['butterfly', 'ant', 'bee', 'spider'],
+        correctAnswer: 2
+    },
+    {
         title: 'araña',
-        alternatives: ['spider', 'scorpion', 'centipede', 'bee'],
-        correctAnswer: 0
-      },
-      {
+        alternatives: ['centipede', 'spider', 'bee', 'scorpion'],
+        correctAnswer: 1
+    },
+    {
         title: 'ciervo',
-        alternatives: ['deer', 'moose', 'elk', 'antelope'],
+        alternatives: ['antelope', 'deer', 'moose', 'elk'],
         correctAnswer: 0
-      },
-      {
+    },
+    {
         title: 'delfín',
-        alternatives: ['dolphin', 'whale', 'shark', 'seal'],
-        correctAnswer: 0
-      }
+        alternatives: ['whale', 'dolphin', 'shark', 'seal'],
+        correctAnswer: 1
+    }    
   ];
 
   export default questions;
