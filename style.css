@@ -46,10 +46,14 @@ ul {
 
 #result {
     font-weight: bold;
+    font-size: 20px;
 }
 
 #score, #result {
     color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
 #maintitle {
@@ -113,8 +117,16 @@ ul {
     border-radius: 10px; 
     cursor: pointer;
     transition: background-color 0.3s ease; 
+    margin-bottom: 10px;
   }
   
   #nextButton:hover {
     background-color: #494b49; 
+  }
+
+  #questionNumber {
+    color: white;
+    font-size: 30px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
   }
